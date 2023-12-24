@@ -1,0 +1,49 @@
+:root {
+  --primary : #6D1B43;
+  --grey : #404040;
+  --lightgrey : #EEEEEE;
+}
+
+
+.hide {
+  display: none !important;
+}
+.col{
+	align-items: center;
+	width: fit-content !important;
+}
+.orders-box{
+	padding: 20px;
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+	width: 100%;
+	height: fit-content;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	margin-left: 0;
+	background-color: var(--lightgrey);
+	border-radius: 10px;
+}
+.total{	
+	height: 136px !important;
+	text-align: center;
+}
+
+
+.right {
+	float: right !important;
+}
+.orders-box .box-head{
+	text-align: center;
+}
+
+.btn-primary{
+	background-color: var(--primary) !important;
+	border: var(--lightgrey) !important;
+}
+.orders-link {
+	text-decoration: none;
+	color: var(--grey);
+}
+.orders-link:hover {
+	color: var(--primary);
+}

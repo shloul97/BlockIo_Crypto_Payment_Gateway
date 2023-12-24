@@ -1,0 +1,33 @@
+
+
+:root {
+  --primary : #6D1B43;
+  --grey : #404040;
+  --light-grey : #F4F4F4;
+}
+
+html,body {
+    height: 100% !important;
+    width: 100%;
+	margin: 0;
+  }
+
+ul {
+	list-style-type: none;
+}
+
+
+.payment-box {
+  padding: 20px;
+  width: 95%;
+  background-color: var(--light-grey);
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.box-item{
+  margin-bottom: 8px;
+}
+.coin-image{
+  width: 60px;
+  height: 60px;
+}
